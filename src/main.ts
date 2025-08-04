@@ -51,4 +51,5 @@ app.listen(config.api.port, () => {
 function unused() {
   // this function does nothing
   // and is called nowhere
+  // should be flagged
 }
